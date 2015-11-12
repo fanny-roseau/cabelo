@@ -1,5 +1,5 @@
 #wrapper {
-  background-image: linear-gradient(rgba(24, 241, 241, 0.8), rgba(162, 236, 241, 0.9)), url('../images/background.jpg');
+  background-image: linear-gradient(rgba(24, 241, 241, 0.68), rgba(162, 236, 241, 0.9)), url('../images/background.jpg');
   height:750px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
