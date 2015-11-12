@@ -1,5 +1,5 @@
 #wrapper {
-  background-image: linear-gradient(rgba(24, 241, 241, 0.68), rgba(162, 236, 241, 0.9)), url('../images/background.jpg');
+  background-image: linear-gradient(rgba(215, 222, 222, 0.68), rgba(221, 222, 222, 0.9)), url('../images/background.jpg');
   height:750px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -71,19 +71,29 @@ nav a:hover {
   color: #00BFFF !important;
 }
 
-.navbar-background {
-  padding-top:10px;
-  padding-bottom:10px;
-  background-color:transparent;
-  border:none;
-}
 
 @media screen and (max-width: 768px) {
-  #bs-example-navbar-collapse-1 {
-    background-color: white;
-  }
+    .img-navbar {width: 60px !important;}
+
+    .navbar-background {
+      padding-top:10px;
+      padding-bottom:10px;
+      background-color:white !important;
+      border:none;
+    }
 }
 
+@media (min-width: 768px) {
+    .img-navbar {width: 100px;}
+
+    .navbar-background {
+      padding-top:10px;
+      padding-bottom:10px;
+      background-color:transparent;
+      border:none;
+    }
+
+}
 
 .caisse-fonctionnalites {
   background-color:#00BFFF;

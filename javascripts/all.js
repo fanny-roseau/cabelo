@@ -1,10 +1,10 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        if($(window).scrollTop() > 2){
+        if(($(window).scrollTop() > 2) && ($(window).width() > 768)) {
             $(".navbar-background").css({"background-color":"white"});
             $(".img-navbar").css({"width":"60"});
         }
-        if($(window).scrollTop() < 2){
+        if(($(window).scrollTop() < 2) && ($(window).width() > 768)) {
             $(".navbar-background").css({"background-color":"transparent"});
             $(".img-navbar").css({"width":"100"});
         }
